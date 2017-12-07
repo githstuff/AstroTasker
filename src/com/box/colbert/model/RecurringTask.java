@@ -10,6 +10,13 @@ public class RecurringTask extends Task {
         super(description, complexity);
     }
 
+    public int getSreak(){
+        return streak;
+    }
+    public void incrementStreak(){
+        streak++;
+    }
+
     @Override
     public String toString() {
 

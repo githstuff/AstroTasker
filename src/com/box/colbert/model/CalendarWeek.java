@@ -41,7 +41,7 @@ public class CalendarWeek {
         try{
             weekMap.put(key,!weekMap.get(key));
         }catch(NullPointerException e){
-            System.out.println("ERROR - invalid key: valid keys are \"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\"\"Saturday\"");
+            System.out.println("ERROR - invalid key: valid keys are \"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\"");
             System.exit(-1);
         }
     }
